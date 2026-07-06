@@ -22,9 +22,17 @@
 - 竞品定位：替代被 CWS 移除的 EditThisCookie（300 万用户），免费、开源、零追踪
 - 不做：Pro 付费、订阅、广告、数据收集、云端同步、用户账号
 
+## 本地测试
+
+- 在 Chrome `chrome://extensions` 中「加载已解压的扩展程序」，选择项目根目录
+- 打开任意网站（如 github.com），点击 toolbar 中 CookieClear 图标即可测试 popup
+- 截图工具：`node -e "..."` 见 `store-assets/` 下的生成脚本
+- 商店素材：`store-assets/CWS_STORE.md`（描述 + SEO 关键词）+ 2 张截图
+
 ## 工作约定
 
-- 代码改动后更新 PRODUCT.md / STATUS.md 同步状态
+- 改动功能或修复问题后更新 PRODUCT.md / STATUS.md 同步状态
 - 提交前跑 `npm test`，76 个测试必须全部通过
 - 提交信息包含改动说明 + `Co-Authored-By: Claude <noreply@anthropic.com>`
 - 推送到 `git@github.com:wayknow/cookieclear.git`，分支 `main`
+- 上下文快满时说"做检查点"：更新文档 → git commit → 提示清空重启
