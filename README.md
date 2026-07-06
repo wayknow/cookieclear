@@ -103,5 +103,5 @@ MIT — see [LICENSE](LICENSE)
 
 ## Related Projects
 
-- [ClearJSON](https://github.com/cookieclear/clearjson) — A trustworthy JSON viewer
-- [SnapMark](https://github.com/cookieclear/snapmark) — Privacy-first screenshot & annotation tool
+- [ClearJSON](https://github.com/wayknow/clearjson) — A trustworthy JSON viewer
+- [SnapMark](https://github.com/wayknow/snapmark) — Privacy-first screenshot & annotation tool
