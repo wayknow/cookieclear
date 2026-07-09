@@ -236,14 +236,6 @@ The cookie editor market has no validated paid demand. EditThisCookie had 3M fre
 | "free cookie editor" | Price-sensitive users |
 | "cookie privacy score" | Privacy-conscious users |
 
-### Search Keywords (off-store only)
-These keywords should be targeted via blog posts and social media, not CWS metadata:
-| Keyword | Intent |
-|---------|--------|
-| "EditThisCookie replacement" | Direct replacement seeker |
-| "EditThisCookie alternative" | Replacement seeker |
-| "EditThisCookie MV3" | Knows it was removed, looking for new tool |
-
 ### Cross-promotion
 CookieClear promotes ClearJSON and SnapMark within the extension. Three products cover three high-frequency developer needs, cross-promoting each other.
 

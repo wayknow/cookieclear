@@ -84,7 +84,7 @@ async function main() {
       name: 'marquee-tile',
       width: 1400, height: 560,
       title: 'CookieClear',
-      subtitle: 'Privacy-first cookie editor — <span class="accent">Free · Open source · Zero tracking</span><br>The safe EditThisCookie replacement',
+      subtitle: 'Privacy-first cookie editor — <span class="accent">Free · Open source · Zero tracking · MV3 native</span>',
       features: ['Privacy Score', 'Cookie Classification', 'Domain Whitelist', 'Undo Support', 'Import/Export', 'Dark Mode'],
     },
   ];

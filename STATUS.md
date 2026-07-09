@@ -1,13 +1,17 @@
 # CookieClear — Project Status
 
-> Last updated: 2026-07-08（SnapMark 已上架，CWS SEO 教训：上架后有 2-7 天索引延迟，搜全称能找到 = 已索引，搜简称找不到 = 排名垫底。上架后立刻去 CWS 后台优化详细描述，秒生效不需要重新审核。）
+> Last updated: 2026-07-09（重新提交前审计：发现上次"关键词堆砌"清理漏了 marquee 宣传图 —— promo/generate.js 仍写着 "The safe EditThisCookie replacement"，marquee-tile.png 由此生成含竞品名。已修脚本并重新生成 3 张宣传图，PRODUCT.md 移除竞品品牌关键词表。商店可见资产现已零竞品名。）
 
 ---
 
 ## Current State: Resubmitting After Rejection 🔧
 
 First submission rejected for "keyword spam" — competitor names in title/description/keywords.
-All competitor references removed. Resubmitting.
+Store text cleaned, but a pre-submission audit (2026-07-09) found a residual competitor name
+baked into the **marquee promo tile** (`promo/generate.js` → `marquee-tile.png` said
+"The safe EditThisCookie replacement"). Fixed the generator and regenerated all 3 tiles;
+removed the competitor-brand keyword table from PRODUCT.md. All store-visible assets now clean.
+Re-upload the regenerated promo tiles to CWS before resubmitting.
 
 ### What's Built
 
@@ -94,6 +98,7 @@ Total: ~83 KB (well under 200KB target)
 | 2026-07-06 | **Bundled tracking list** | Offline classification. Zero network requests — verifiable by anyone. |
 | 2026-07-06 | **Domain whitelist + undo** | User research: these features are frequently requested. Low dev cost, high differentiation. |
 | 2026-07-07 | **Remove competitor names from metadata** | CWS rejected first submission for keyword spam. All competitor references removed from store listing, README, website, and public docs. |
+| 2026-07-09 | **Fix residual competitor name in marquee tile** | Pre-resubmit audit found `promo/generate.js` still generated a marquee tile reading "The safe EditThisCookie replacement". Fixed generator, regenerated all 3 tiles, removed competitor-brand keyword table from PRODUCT.md. |
 
 ---
 
