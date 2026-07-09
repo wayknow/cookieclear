@@ -2,7 +2,11 @@
 
 > A privacy-first browser cookie editor. Open source, zero tracking, no ads.
 >
-> The trustworthy replacement for EditThisCookie (3M+ users, removed from Chrome Web Store).
+> Safe, modern, and completely free — built for Manifest V3.
+
+> **Note (2026-07-07):** CWS rejected first submission for keyword spam (competitor names in metadata).
+> All competitor references have been removed from store listing, README, and website.
+> This document retains competitive research for internal reference only.
 
 ---
 
@@ -215,19 +219,30 @@ The cookie editor market has no validated paid demand. EditThisCookie had 3M fre
 
 ## Promotion Strategy
 
-### Ride the wave
-- Malicious "EditThisCookie®" copycat has 50K users with terrible reviews — post warnings on Reddit/HN, introduce the safe alternative
-- "EditThisCookie is gone. Here's the safe, open-source replacement." — capture search traffic directly
-- Reply in EditThisCookie's original GitHub issues (thousands of comments looking for alternatives)
+> ⚠️ CWS does not allow competitor names in store listing metadata (title, description, keywords).
+> Promotion using competitor names must happen off-store: Reddit, HN, social media, blog posts.
 
-### Search Keywords
+### Off-Store Channels
+- Reddit/HN posts about cookie editor safety and privacy
+- Blog posts comparing cookie editor features
+- Reply in relevant GitHub issues and forums
+
+### Search Keywords (CWS-approved)
+| Keyword | Intent |
+|---------|--------|
+| "cookie editor Chrome" | General discovery |
+| "manifest v3 cookie editor" | MV3-aware users |
+| "open source cookie editor" | Open source seekers |
+| "free cookie editor" | Price-sensitive users |
+| "cookie privacy score" | Privacy-conscious users |
+
+### Search Keywords (off-store only)
+These keywords should be targeted via blog posts and social media, not CWS metadata:
 | Keyword | Intent |
 |---------|--------|
 | "EditThisCookie replacement" | Direct replacement seeker |
-| "EditThisCookie alternative 2025" | Replacement seeker |
-| "cookie editor Chrome" | General discovery |
+| "EditThisCookie alternative" | Replacement seeker |
 | "EditThisCookie MV3" | Knows it was removed, looking for new tool |
-| "EditThisCookie malware" | Found the copycat, wants safe alternative |
 
 ### Cross-promotion
 CookieClear promotes ClearJSON and SnapMark within the extension. Three products cover three high-frequency developer needs, cross-promoting each other.

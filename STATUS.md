@@ -68,12 +68,12 @@ Total: ~83 KB (well under 200KB target)
 
 | Feature | Demand Signal |
 |---------|---------------|
-| Cookie profiles (save/restore sets) | CookieJar Pro feature; wait for user requests |
-| Scheduled auto-cleanup | CookieJar Pro feature; wait for user requests |
+| Cookie profiles (save/restore sets) | Paid feature in proprietary editors; wait for user requests |
+| Scheduled auto-cleanup | Paid feature in proprietary editors; wait for user requests |
 | CSV/Puppeteer export | QA user requests |
-| Set-Cookie interceptor | No competitor has this — unvalidated |
+| Set-Cookie interceptor | Unvalidated idea; wait for user interest |
 | Bulk edit | Wait for user requests |
-| JWT decoder | Competitors (Cookies Editor) have this free |
+| JWT decoder | Common free feature in other editors |
 
 ### Known Limitations
 
@@ -88,11 +88,12 @@ Total: ~83 KB (well under 200KB target)
 
 | Date | Decision | Rationale |
 |------|----------|-----------|
-| 2026-07-06 | **Free only, no Pro tier** | Competitor research: cookie editor market has no validated paid demand. CookieClear's role is acquisition for ClearJSON/SnapMark. |
+| 2026-07-06 | **Free only, no Pro tier** | Market research: no validated paid demand in cookie editor category. CookieClear's role is acquisition for ClearJSON/SnapMark. |
 | 2026-07-06 | **Vanilla JS, no framework** | Extension size < 85KB achieved. No build step needed. |
-| 2026-07-06 | **MIT License** | Trust foundation. Competitors are either closed-source or unmaintained. |
+| 2026-07-06 | **MIT License** | Trust foundation — open source code is auditable by anyone. |
 | 2026-07-06 | **Bundled tracking list** | Offline classification. Zero network requests — verifiable by anyone. |
-| 2026-07-06 | **Domain whitelist + undo** | Competitor research: users repeatedly asking for these. Low dev cost, high differentiation. |
+| 2026-07-06 | **Domain whitelist + undo** | User research: these features are frequently requested. Low dev cost, high differentiation. |
+| 2026-07-07 | **Remove competitor names from metadata** | CWS rejected first submission for keyword spam. All competitor references removed from store listing, README, website, and public docs. |
 
 ---
 
