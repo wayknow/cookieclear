@@ -1,12 +1,13 @@
 # CookieClear — Project Status
 
-> Last updated: 2026-07-06
+> Last updated: 2026-07-08（SnapMark 已上架，CWS SEO 教训：上架后有 2-7 天索引延迟，搜全称能找到 = 已索引，搜简称找不到 = 排名垫底。上架后立刻去 CWS 后台优化详细描述，秒生效不需要重新审核。）
 
 ---
 
-## Current State: CWS Prep ✅
+## Current State: Resubmitting After Rejection 🔧
 
-CookieClear v1.0.0 is built, tested, and ready for Chrome Web Store submission. CWS developer registration is pending review.
+First submission rejected for "keyword spam" — competitor names in title/description/keywords.
+All competitor references removed. Resubmitting.
 
 ### What's Built
 
@@ -51,15 +52,17 @@ Total: ~83 KB (well under 200KB target)
 
 ### Before CWS Submission
 - [x] Create a proper 128x128 icon (current is placeholder)
-- [x] Create CWS store listing assets (screenshots, promo tiles)
-- [x] Write CWS description with SEO keywords
+- [x] Create CWS store listing assets (3 screenshots at 1280×800 + 3 promo tiles)
+- [x] Write CWS description with SEO keywords → `docs/store-listing.md`
 - [x] Add "Suggest a Feature" link in popup → points to GitHub Issues
+- [x] Update homepage_url to wayknow.tech/cookieclear.html
+- [x] Align directory structure with ClearJSON/SnapMark (promo/ + screenshots/ + docs/)
 
 ### After Launch
 - [ ] Monitor GitHub Issues for user feedback
 - [ ] Track install count and retention
 - [ ] If installs > 5,000: analyze feature requests for monetization opportunities
-- [ ] Cross-promote ClearJSON and SnapMark in the extension
+- [x] Cross-promote ClearJSON and SnapMark in the extension
 
 ### Feature Ideas (Not Prioritized — Wait for User Feedback)
 
@@ -76,9 +79,7 @@ Total: ~83 KB (well under 200KB target)
 
 | Issue | Impact | Plan |
 |-------|--------|------|
-| Placeholder icons | Aesthetic only | Replace before CWS submission |
 | Undo is per-session only | Resets when popup closes | Acceptable for MVP; persist later if needed |
-| Icons are programmatic PNGs | Functional but basic | Replace with designed icons |
 | No i18n | English only | Add if non-English users request it |
 
 ---

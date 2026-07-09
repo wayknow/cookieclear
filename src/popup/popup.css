@@ -544,15 +544,18 @@ body {
 
 /* ─── Footer ─── */
 .footer {
-  padding: 6px 12px;
+  padding: 4px 12px;
   border-top: 1px solid var(--border-light);
   background: var(--bg-secondary);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   font-size: 11px;
   color: var(--text-secondary);
   flex-shrink: 0;
+}
+
+.footer-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .tracker-count {
@@ -579,4 +582,39 @@ body {
 .feedback-link:hover {
   color: var(--primary);
   background: var(--bg-hover);
+}
+
+/* ─── Footer Promo ─── */
+.footer-promo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 2px 0 4px;
+  font-size: 10px;
+  color: var(--text-muted);
+  border-top: 1px solid var(--border-light);
+  margin-top: 3px;
+}
+
+.promo-label {
+  color: var(--text-muted);
+  margin-right: 2px;
+}
+
+.footer-promo a {
+  color: var(--text-muted);
+  text-decoration: none;
+  padding: 1px 4px;
+  border-radius: 2px;
+}
+
+.footer-promo a:hover {
+  color: var(--primary);
+  background: var(--bg-hover);
+}
+
+.promo-sep {
+  color: var(--text-muted);
+  opacity: 0.4;
 }

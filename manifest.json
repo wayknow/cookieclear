@@ -3,8 +3,8 @@
   "name": "CookieClear",
   "version": "1.0.0",
   "description": "A privacy-first cookie editor. Open source, zero tracking, no ads.",
-  "author": "CookieClear",
-  "homepage_url": "https://github.com/cookieclear/cookieclear",
+  "author": "WayKnow",
+  "homepage_url": "https://wayknow.tech/cookieclear.html",
   "permissions": [
     "cookies",
     "storage",

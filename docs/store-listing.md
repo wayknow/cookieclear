@@ -18,7 +18,7 @@ CookieClear — Privacy-first cookie editor. Open source, zero tracking.
 
 ## Short Description (max 132 chars)
 
-Free, open-source cookie editor. View, edit, import & export cookies. Privacy score, dark mode, zero tracking. EditThisCookie replacement.
+Free, open-source cookie editor. View, edit, import & export cookies. Privacy score, dark mode, zero tracking.
 
 ---
 
@@ -26,11 +26,8 @@ Free, open-source cookie editor. View, edit, import & export cookies. Privacy sc
 
 CookieClear is a privacy-first cookie editor for Chrome. View, edit, import, and export browser cookies — all locally, with zero network requests and zero tracking.
 
-🍪 WHY COOKIECLEAR?
-
-EditThisCookie (3M+ users) was removed from the Chrome Web Store for not migrating to Manifest V3. A malicious copycat scammed 50,000+ users with credential-stealing code. CookieClear is the safe, modern, open-source replacement.
-
 🔒 100% PRIVATE
+
 • No data collection. No analytics. No telemetry.
 • All processing happens locally on your device.
 • Zero network requests — verifiable in Chrome DevTools.
@@ -74,12 +71,6 @@ github.com/wayknow/cookieclear
 
 ---
 
-✨ WHAT MAKES COOKIECLEAR DIFFERENT FROM OTHER COOKIE EDITORS?
-
-Most cookie editors are either abandoned (Cookie-Editor — no updates since 2024), subscription-only (CookieJar — $4.99/month), or show intrusive ads (Cookie Editor). CookieClear is actively maintained, completely free, ad-free, and open source — with features like privacy scoring and domain whitelist that no other free editor offers.
-
----
-
 ## Promotional Tile Text
 
 ### Small Tile (440×280)
@@ -97,13 +88,23 @@ Free · Open source · Zero tracking · MV3 native
 ### Marquee (1400×560)
 
 CookieClear — Privacy-first cookie editor
-Free · Open source · Zero tracking · The safe EditThisCookie replacement
+Free · Open source · Zero tracking · MV3 native
 
 ---
 
 ## SEO Keywords (comma-separated)
 
-cookie editor, cookie manager, edit cookies, chrome cookie editor, edit this cookie, editthiscookie replacement, editthiscookie alternative, cookie export, cookie import, cookie privacy, privacy score, cookie cleaner, cookie deleter, delete cookies, manage cookies, cookie tool, developer tools, web developer, QA testing, open source cookie editor, free cookie editor, manifest v3 cookie editor, mv3 cookie manager
+cookie editor, cookie manager, edit cookies, chrome cookie editor, cookie export, cookie import, cookie privacy, privacy score, cookie cleaner, delete cookies, manage cookies, developer tools, web developer, QA testing, open source cookie editor, free cookie editor, manifest v3 cookie editor
+
+---
+
+## Promotional Tiles
+
+| Tile | File | Size |
+|------|------|------|
+| Small | `promo/small-tile.png` | 440×280 |
+| Large | `promo/large-tile.png` | 920×680 |
+| Marquee | `promo/marquee-tile.png` | 1400×560 |
 
 ---
 
@@ -111,5 +112,8 @@ cookie editor, cookie manager, edit cookies, chrome cookie editor, edit this coo
 
 | # | File | Description |
 |---|------|-------------|
-| 1 | `screenshot-1-popup.png` | Popup UI showing cookie management interface |
-| 2 | `screenshot-2-options.png` | Settings page with domain whitelist management |
+| 1 | `screenshots/01-popup-list.png` | Popup UI showing cookie list, privacy score, and classification |
+| 2 | `screenshots/02-edit-export.png` | Cookie edit form and export format dropdown |
+| 3 | `screenshots/03-options-whitelist.png` | Settings page with domain whitelist management |
+
+> All screenshots are 1280×800 as required by CWS.

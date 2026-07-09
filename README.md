@@ -2,15 +2,15 @@
 
 > A privacy-first cookie editor for Chrome. Open source, zero tracking, no ads.
 
-CookieClear is a Manifest V3 Chrome extension that lets you view, edit, import, export, and manage browser cookies. It's designed to be the trustworthy replacement for EditThisCookie (removed from Chrome Web Store, 3M+ users) and Cookie-Editor (unmaintained since Feb 2024).
+CookieClear is a Manifest V3 Chrome extension that lets you view, edit, import, export, and manage browser cookies. All processing happens locally on your device — zero network requests, zero tracking.
 
 ## Why CookieClear
 
-- **Reliable import/export** — JSON, Netscape, and cURL formats that actually work (unlike broken alternatives)
+- **Reliable import/export** — JSON, Netscape, and cURL formats with robust parsing
 - **Zero tracking** — no analytics, no telemetry, no external requests. All data stays on your device.
-- **No ads** — unlike competitors that inject ads into your cookie editor
+- **No ads** — clean, distraction-free interface
 - **MIT licensed** — fully open source, auditable code
-- **Fast UI** — no animations, no bloat, just the classic EditThisCookie experience in a modern MV3 package
+- **Fast UI** — no animations, no bloat, modern MV3 architecture
 
 ## Features
 
@@ -29,7 +29,7 @@ CookieClear is a Manifest V3 Chrome extension that lets you view, edit, import, 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/cookieclear/cookieclear.git
+   git clone https://github.com/wayknow/cookieclear.git
    cd cookieclear
    ```
 
