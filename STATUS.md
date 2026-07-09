@@ -1,17 +1,36 @@
 # CookieClear — Project Status
 
-> Last updated: 2026-07-09（重新提交前审计：发现上次"关键词堆砌"清理漏了 marquee 宣传图 —— promo/generate.js 仍写着 "The safe EditThisCookie replacement"，marquee-tile.png 由此生成含竞品名。已修脚本并重新生成 3 张宣传图，PRODUCT.md 移除竞品品牌关键词表。商店可见资产现已零竞品名。）
+> Last updated: 2026-07-09（CWS 硬性屏蔽此 item —— "无法纠正的违规，禁止重新提交，只能申诉"。根因：关键词堆砌重复触发，且上次清理漏了 marquee 宣传图里的竞品名。已修复并重新生成全部素材，两个仓库所有对外可见资产核实零竞品名。**已提交申诉**，等邮件裁决。同一违规仅一次申诉机会。）
 
 ---
 
-## Current State: Resubmitting After Rejection 🔧
+## Current State: Blocked — Appeal Submitted ⏳
 
-First submission rejected for "keyword spam" — competitor names in title/description/keywords.
-Store text cleaned, but a pre-submission audit (2026-07-09) found a residual competitor name
-baked into the **marquee promo tile** (`promo/generate.js` → `marquee-tile.png` said
-"The safe EditThisCookie replacement"). Fixed the generator and regenerated all 3 tiles;
-removed the competitor-brand keyword table from PRODUCT.md. All store-visible assets now clean.
-Re-upload the regenerated promo tiles to CWS before resubmitting.
+The item was hard-blocked by CWS ("uncorrectable violation — resubmission disabled, appeal only")
+under the Spam / Store Ranking policy (notification ID: Yellow Nickel) for keyword spam.
+
+**Root cause of the block:** repeated keyword-spam trigger. The first rejection was for
+competitor names in the store text. A pre-resubmit audit (2026-07-09) then found a *residual*
+competitor name baked into the **marquee promo tile** (`promo/generate.js` → `marquee-tile.png`
+said "The safe EditThisCookie replacement") — the earlier cleanup missed the tile generator.
+
+**Remediation (2026-07-09) — all store-visible assets verified competitor-name-free:**
+- Description: WHY paragraph naming a competitor + "replacement" positioning removed.
+- Title / short description / keywords: no competitor names.
+- Promo tiles: `promo/generate.js` fixed, all 3 tiles regenerated.
+- Screenshots: regenerated from clean source (byte-identical to committed → confirmed clean).
+- Website (`wayknow`: cookieclear.html / privacy / terms): verified clean.
+- Internal docs (PRODUCT.md, wayknow DECISIONS.md): competitor brand names sanitized.
+
+**Appeal submitted 2026-07-09.** Reason: "action taken on my content was in error." Note stated
+the cited violation is fully remediated and requested reinstatement. **Only one appeal per
+violation** — awaiting verdict by email.
+
+**Next:**
+- If appeal succeeds → item unblocks → submit the saved clean draft (clean description already
+  drafted in `docs/store-listing.md`; re-upload the 3 regenerated promo tiles).
+- If appeal is denied → the appeal for this violation is exhausted; evaluate republishing under a
+  fresh item ID with a clean listing.
 
 ### What's Built
 
@@ -99,6 +118,7 @@ Total: ~83 KB (well under 200KB target)
 | 2026-07-06 | **Domain whitelist + undo** | User research: these features are frequently requested. Low dev cost, high differentiation. |
 | 2026-07-07 | **Remove competitor names from metadata** | CWS rejected first submission for keyword spam. All competitor references removed from store listing, README, website, and public docs. |
 | 2026-07-09 | **Fix residual competitor name in marquee tile** | Pre-resubmit audit found `promo/generate.js` still generated a marquee tile reading "The safe EditThisCookie replacement". Fixed generator, regenerated all 3 tiles, removed competitor-brand keyword table from PRODUCT.md. |
+| 2026-07-09 | **Submit CWS appeal** | Item hard-blocked (resubmission disabled, appeal only) under Spam/Store Ranking policy. All store-visible assets verified competitor-name-free across both repos. Appealed with reason "action was in error" + remediation summary. One appeal per violation — awaiting verdict. |
 
 ---
 
