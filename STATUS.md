@@ -127,3 +127,9 @@ Total: ~83 KB (well under 200KB target)
 - [PRODUCT.md](PRODUCT.md) — Full product specification, market context, competitive analysis
 - [README.md](README.md) — Quick start and user-facing documentation
 - [LICENSE](LICENSE) — MIT
+
+### Appeal Response (2026-07-17)
+
+- **Result:** Appeal reviewed — spam block lifted. New issue: `tabs` permission is not required
+- **Fix:** Removed `tabs` from manifest permissions (redundant with `activeTab` for the single `chrome.tabs.query({ active: true })` call)
+- **Next:** Resubmit with fixed manifest
